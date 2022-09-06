@@ -1,8 +1,10 @@
 {
   "dependencies": {
+    "node-fetch": "^3.2.10",
     "xmlhttprequest": "^1.8.0"
   },
   "Scripts": {
     "callback": "node src/callback/challenge.js"
-  }
+  },
+  "type": "module"
 }
